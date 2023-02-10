@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "bigFont";
+    src: url(./Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+button {
+  background-color: #035aa6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+h1{
+    display: inline;
+}
+.wrapper {
+	max-width: 300px;
+}
+div {
+	border-radius: 5px;
+}
+.smallBorder{
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 15px;
+}
+.smallText{
+    color: green;
+}
+.middleBorder{
+    border: 8px solid gray;
+    text-align: center;
+    border-radius: 15px;
+}
+.middleText{
+    color: green;
+}
+@keyframes bigAnimation {
+    from {color: green;}
+    to {color: yellow;}
+  }
+.bigText{
+    font-size: 3rem;
+    font-family: "bigFont";
+    text-shadow: 2px 2px green;
+    animation-name: bigAnimation;
+    animation-duration: 3s;
+}
+.bigBorder{
+    border: 16px solid green;
+}
